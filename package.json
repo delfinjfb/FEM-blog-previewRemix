@@ -1,6 +1,6 @@
 {
 	"name": "fem-blog-previewremix",
-	"homepage": "https://delfinjfb.github.io/FEM-blog-previewRemixx",
+	"homepage": "https://delfinjfb.github.io/FEM-blog-previewRemix",
 	"private": true,
 	"sideEffects": false,
 	"type": "module",
@@ -11,7 +11,7 @@
 		"start": "remix-serve build/server/index.js",
 		"typecheck": "tsc",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build" 
+    "deploy": "gh-pages/root -d build" 
 	},
 	"dependencies": {
 		"@remix-run/node": "^2.9.2",

@@ -1,6 +1,7 @@
 {
 	"name": "fem-blog-previewremix",
 	"homepage": "https://delfinjfb.github.io/FEM-blog-previewRemix",
+	"main": "app/index.tsx",
 	"private": true,
 	"sideEffects": false,
 	"type": "module",
@@ -10,8 +11,8 @@
 		"lint": "eslint --ignore-path .gitignore --cache --cache-location ./node_modules/.cache/eslint .",
 		"start": "remix-serve build/server/index.js",
 		"typecheck": "tsc",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages/root -d build" 
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build"
 	},
 	"dependencies": {
 		"@remix-run/node": "^2.9.2",
@@ -42,6 +43,5 @@
 	},
 	"engines": {
 		"node": ">=20.0.0"
-	},
-  
+	}
 }
